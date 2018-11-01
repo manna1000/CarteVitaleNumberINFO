@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Carte Vitale Number INFO</string>
+    <string name="tvresults">TextView</string>
+    <string name="btnenter">ENTER</string>
+    <string name="etID">Type Your CV Number</string>
+    <string name="tv1">Do you know that you can get some of the information about you from your Carte Vitale Number ? Just type in the number below and hit Enter:</string>
+    <string name="ivID">Carte Vitale.png</string>
+    <string name="cartevitale_png">CarteVitale.png</string>
+    <string name="do_you_know_that_you_can_get_some_of_the_information_about_you_from_your_carte_vitale_number_just_type_in_the_number_below_and_hit_enter">Savez-vous que vous pouvez obtenir certaines informations sur votre numéro de carte vitale? Saisissez simplement le numéro ci-dessous et appuyez sur Envoyer:</string>
+    <string name="type_your_cv_number">Type your CV Number</string>
+    <string name="enter">ENVOYER</string>
+    <string name="doby">L\'année de naissance: </string>
+    <string name="dobm">Mois de Naissance: </string>
+    <string name="gender">Sexe:</string>
+    <string name="nationality">Nature du Titre: </string>
+    <string name="commune">Commune:</string>
+    <string name="order">Ordre: </string>
+    <string name="key">Clé: </string>
+</resources>

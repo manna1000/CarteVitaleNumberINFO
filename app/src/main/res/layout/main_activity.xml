@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivid"
+        android:layout_width="235dp"
+        android:layout_height="196dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/cv2"
+        android:contentDescription="@string/cartevitale_png" />
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/do_you_know_that_you_can_get_some_of_the_information_about_you_from_your_carte_vitale_number_just_type_in_the_number_below_and_hit_enter"
+        android:textColor="@color/colorPrimaryText"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/type_your_cv_number"
+        android:inputType="number"
+        android:textColor="@color/colorSecondaryText" />
+
+    <Button
+        android:id="@+id/btnenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/enter"
+        android:textColor="@color/colorIcons"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvresults"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/colorPrimaryText"
+        android:textStyle="bold" />
+</LinearLayout>
